@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	background: #ffffff;
+	font-size: 16px;
+	color: #1e1e1e;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
