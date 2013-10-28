@@ -61,9 +61,33 @@ h3 {
 	letter-spacing: 0.2em;
 }
 
+ol {
+	margin: 0;
+	padding: 0;
+}
+
 ol li {
 	font-size: 1.275em;
 	line-height: 2em;
+	list-style-type: none;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	padding: 0.5em 0;
+	transition: 0.3s ease;
+}
+
+ol a {
+	color: inherit;
+	text-indent: 2em;
+}
+
+ol a:hover {
+	text-decoration: none;
+	color: #ccc;
+}
+
+ol li:hover {
+	background-color: #f7f7f7;
 }
 
 .soon {
