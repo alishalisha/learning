@@ -22,6 +22,21 @@ body {
 	margin-bottom: 1.875em;
 }
 
+
+/*FOOTER */
+
+.footer {
+	background-color: #27da7b;
+	padding: 1em 0;
+	font-size: 0.8em;
+	color: #105631;
+	margin-top: 1.875em;
+}
+
+.footer a {
+	color: #105631;
+}
+
 /* TYPOGRAPHY */
 
 h1, h2 {
@@ -54,4 +69,13 @@ ol li {
 .soon {
 	color: #ccc;
 	font-style: italic;
+}
+
+a, a:link, a:visited, a:active {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
