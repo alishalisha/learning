@@ -58,7 +58,9 @@ h3 {
 	text-transform: uppercase;
 	color: #4fc0e1;
 	font-size: 1.125em;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
+	font-family: "ff-tisa-web-pro", cambria, georgia;
+	font-weight: 700;
 }
 
 ol li {
