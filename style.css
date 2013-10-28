@@ -150,3 +150,9 @@ a, a:link, a:visited, a:active {
 a:hover {
 	text-decoration: underline;
 }
+
+/* GENERAL */
+
+.text_right {
+	text-align: right;
+}
