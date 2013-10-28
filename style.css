@@ -54,11 +54,43 @@ h2 {
 	font-size: 1.5em;
 }
 
+h2 a {
+	color: inherit;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	letter-spacing: 0.1em;
+	vertical-align: middle;
+	font-weight: bold;
+	padding: 1em;
+}
+
+h2 a:hover {
+	text-decoration: none;
+	color: #18834A;
+}
+
+h2 a:after {
+	content: "→";
+
+}
+
 h3 {
 	text-transform: uppercase;
 	color: #4fc0e1;
 	font-size: 1.125em;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
+	font-family: "ff-tisa-web-pro", georgia, serif;
+	font-weight: 700;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
 }
 
 ol {
@@ -73,17 +105,32 @@ ol li {
 	display: block;
 	border-bottom: 1px solid #ccc;
 	padding: 0.5em 0;
+<<<<<<< HEAD
 	transition: 0.3s ease;
+=======
+<<<<<<< HEAD
+	transition: 0.2s ease;
+=======
+	transition: 0.3s ease;
+>>>>>>> gh-pages
+>>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
 }
 
 ol a {
 	color: inherit;
+<<<<<<< HEAD
+=======
+	text-indent: 2em;
+>>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
 }
 
 ol a:hover {
 	text-decoration: none;
 	color: #ccc;
+<<<<<<< HEAD
 	text-indent: 2em;
+=======
+>>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
 }
 
 ol li:hover {
