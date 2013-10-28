@@ -44,6 +44,7 @@ target / context = result
 	width: 90%; /*width: 1000px;*/
 	max-width: 1000px;
 	margin: auto;
+	margin: 0 auto;
 	
 }
 
