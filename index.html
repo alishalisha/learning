@@ -7,34 +7,54 @@
 	
 	<link rel="stylesheet" href="./normalize.css">
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./grid.css">
 
 
-	<!--fonts and typekit -->
-	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cardo:400italic' rel='stylesheet' type='text/css'>
+	<!--typekit -->
 	<script type="text/javascript" src="//use.typekit.net/jlw5vei.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	<header>
-		<h1>Things I Am Learning</h1>
-		<h2>A collection of topics and resources on design, development, and more.</h2>
+	<header class="header">
+		<div class="container">
+			<div class="grid_12">
+				<h1>Things I Am Learning</h1>
+				<h2>A collection of resources on design and development.</h2>
+			</div>
+		</div>
 	</header>
-	<section>
-		<h3>Git and Github</h3>
-		<h3>Typography</h3>
-		<h3>Sass</h3>
-		<h3>iOS design</h3>
-		<h3>Animation</h3>
-		<h3>Lettering</h3>
-		<h3>Drawing and painting</h3>
-		<h3>JavaScript</h3>
-		<h3>Patternmaking</h3>
-		<h3>Mobile-First web design</h3>
-		<h3>Node.js</h3>
-	</section>
+	<div class="container">
+		<section class="grid_7 alpha">
+				<h3>Topics</h3>
+					<ol>
+						<li><h4>Git and Github</h4></li>
+						<li><h4>Typography</h4></li>
+						<li><h4>Sass</h4></li>
+						<li><h4>iOS design and prototyping</h4></li>
+						<li><h4>Animation</h4></li>
+						<li><h4>Lettering</h4></li>
+						<li><h4>Drawing and painting</h4></li>
+						<li><h4>JavaScript</h4></li>
+						<li><h4>Patternmaking</h4></li>
+						<li><h4>Mobile-first web design</h4></li>
+						<li><h4>Node.js</h4></li>
+						<li><h4>Jekyll</h4></li>
+						<li><h4>Human-Computer Interaction</h4></li>
+						<li><h4>APIs</h4></li>
+					</ol>
+		</section>
+		<section class="grid_5 omega">
+				<h3>Currently</h3>
+					<h4>Books I'm Reading</h4>
+					<h4>Articles I've Enjoyed</h4>
+		</section>
+	</div>
 	<footer>
-		Thank you for visiting. This site is under construction. Please email me at ramos.alisha@gmail.com if you have any questions.
+		<div class="container">
+			<div class="grid_12">
+				Thank you for visiting. This site is under construction. Please email me at ramos.alisha@gmail.com if you have any questions.
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
