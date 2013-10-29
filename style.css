@@ -15,15 +15,55 @@ body {
   clear: both;
 }
 
+* {
+	box-sizing: border-box;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+}
+
 /* HEADER */
 .header {
 	background-color: #27da7b;
 	padding: 5em 0 3em 0;
 	margin-bottom: 1.875em;
+	border-bottom: 1px solid rgba(16, 78, 45, 0.21);
 }
 
+/* SECONDARY COLUMN */
 
-/*FOOTER */
+.secondary {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	border-left: 1px solid #ccc;
+	padding: 0 0 0 4.5em;
+	float: right !important;
+}
+
+section.secondary a {
+	color: #2f2f2f;
+	text-decoration: underline;
+}
+
+section.secondary a:hover {
+	text-decoration: none;
+}
+
+section.secondary h3:last-child {
+	margin-top: 3em;
+}
+
+/* FOOTER */
 
 .footer {
 	background-color: #27da7b;
@@ -31,6 +71,7 @@ body {
 	font-size: 0.9em;
 	color: #105631;
 	margin-top: 6em;
+	line-height: 1.71em;
 }
 
 .footer a {
@@ -48,6 +89,7 @@ h1 {
 	font-family: "freight-sans-pro", sans-serif;
 	font-weight: 300;
 	font-size: 3.75em;
+	line-height: 1.5em;
 }
 
 h2 {
@@ -55,32 +97,31 @@ h2 {
 }
 
 h2 a {
-	color: inherit;
-	text-transform: uppercase;
-	font-size: 0.5em;
-	letter-spacing: 0.1em;
-	vertical-align: middle;
+	color: #18834A;
+	font-size: 0.8em;
 	font-weight: bold;
-	padding: 1em;
+	display: inline-block;
 }
 
 h2 a:hover {
 	text-decoration: none;
-	color: #18834A;
+	color: #104E2D;
+	transition: 0.2s ease;
 }
 
 h2 a:after {
-	content: "→";
-
+	content: " →";
 }
 
 h3 {
 	text-transform: uppercase;
-	color: #4fc0e1;
+	color: #27da7b;
 	font-size: 1.125em;
 	letter-spacing: 0.1em;
-	font-family: "ff-tisa-web-pro", georgia, serif;
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
 	font-weight: 700;
+	line-height: 1.5em;
+	margin: 1em 0;
 }
 
 ol {
@@ -136,8 +177,20 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* GENERAL */
+/* GENERAL LAYOUT */
 
 .text_right {
 	text-align: right;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.float_left {
+	float: left;
 }
