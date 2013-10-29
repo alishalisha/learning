@@ -43,7 +43,6 @@ target / context = result
 .container {
 	width: 90%; /*width: 1000px;*/
 	max-width: 1000px;
-	margin: auto;
 	margin: 0 auto;
 	
 }
@@ -52,13 +51,13 @@ target / context = result
 	float: right;
 }
 
-<<<<<<< HEAD
 .pull_left {
 	float: left;
 }
 
-=======
->>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
+.push_right {
+	margin-left: 5%;
+}
 
 
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}

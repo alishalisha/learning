@@ -105,32 +105,17 @@ ol li {
 	display: block;
 	border-bottom: 1px solid #ccc;
 	padding: 0.5em 0;
-<<<<<<< HEAD
-	transition: 0.3s ease;
-=======
-<<<<<<< HEAD
 	transition: 0.2s ease;
-=======
-	transition: 0.3s ease;
->>>>>>> gh-pages
->>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
 }
 
 ol a {
 	color: inherit;
-<<<<<<< HEAD
-=======
-	text-indent: 2em;
->>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
 }
 
 ol a:hover {
 	text-decoration: none;
 	color: #ccc;
-<<<<<<< HEAD
 	text-indent: 2em;
-=======
->>>>>>> 2079378d7a3eb7899d939e7112409f7a7effc887
 }
 
 ol li:hover {
