@@ -45,13 +45,8 @@ h1, h2, h3, h4, h5 {
 .secondary {
 	font-size: 0.9em;
 	line-height: 1.5em;
-<<<<<<< HEAD
-	border-left: 1px solid #ccc;
-	padding: 0 0 0 4.5em;
-=======
 	border-left: 1px dotted #ccc;
 	padding: 0 0 0 3em;
->>>>>>> master
 	float: right !important;
 }
 
