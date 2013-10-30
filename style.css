@@ -63,6 +63,104 @@ section.secondary h3:last-child {
 	margin-top: 3em;
 }
 
+/* SIDEBAR NAV */
+
+.sidebar-nav {
+	width: 25%;
+	min-height: 100%;
+	float: left;
+	border: 0;
+	border-left: 1px solid rgba(16, 78, 45, 0.21);
+	padding: 3em 2.2em;
+	color: #fff;
+	margin-bottom: 0;
+
+}
+
+.sidebar-nav h1 {
+	font-size: 1.5em;
+	margin-bottom: 2em;
+	display: inline-block;
+	padding-left: 0.5em;
+	vertical-align: -5%;
+	font-weight: 500;
+}
+
+.sidebar-nav h3 {
+	color: #fff;
+}
+
+.sidebar-nav .soon {
+	color: #14b35e;
+}
+
+.sidebar-nav ol li {
+	border-bottom: 1px solid #0bb55b;
+}
+
+.sidebar-nav ol li:hover {
+	background-color: #43ec92;
+	color: #fff;
+}
+
+.sidebar-nav a, .sidebar-nav a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.active {
+	text-indent: 2em;
+	background-color: #43ec92;
+}
+
+/* INNER PAGE CONTENT  */
+
+.content {
+	width: 75%;
+	float: left;
+	padding: 3em;
+}
+
+.content h2 {
+	font-size: 3.75em;
+	color: #27da7b;
+	font-family: "freight-sans-pro", Helvetica, arial, sans-serif;
+	font-weight: 300;
+}
+
+.content h3 {
+	color: #ccc;
+}
+
+.content ul {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+.content ul li a {
+	color: #27da7b;
+}
+
+.content ul li:last-child {
+	margin-bottom: 2em;
+}
+
+.content a {
+	color: inherit;
+}
+
+/* SIDEBAR - COLOPHON */
+
+.colophon {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding-top: 3em;
+}
+
+.colophon a {
+	color: inherit;
+}
+
 /* FOOTER */
 
 .footer {
@@ -71,7 +169,7 @@ section.secondary h3:last-child {
 	font-size: 0.9em;
 	color: #105631;
 	margin-top: 6em;
-	line-height: 1.71em;
+	line-height: 1.4em;
 }
 
 .footer a {
@@ -175,6 +273,13 @@ a, a:link, a:visited, a:active {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.intro {
+	font-size: 1.3em;
+	line-height: 1.4em;
+	max-width: 35em;
+	margin-bottom: 3em;
 }
 
 /* GENERAL LAYOUT */
