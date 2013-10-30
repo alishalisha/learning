@@ -299,3 +299,35 @@ a:hover {
 .float_left {
 	float: left;
 }
+
+/* =====================
+
+MEDIA QUERIES
+
+======================= */
+
+@media screen and (max-width: 768px) {
+	.secondary {
+		clear: left;
+		float: left !important;
+		border: 0;
+		padding: 3em 0 0 0;
+		min-width: 100%;
+		font-size: 1.3em;
+	}
+
+	.primary {
+		min-width: 100%;
+		font-size: 1.4em;
+	}
+
+	.footer {
+		font-size: 1em;
+	}
+
+	.footer .text_right {
+		display: none;
+	}
+
+}
+
