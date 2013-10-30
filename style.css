@@ -83,6 +83,7 @@ section.secondary h3:last-child {
 	display: inline-block;
 	padding-left: 0.5em;
 	vertical-align: -5%;
+	font-weight: 500;
 }
 
 .sidebar-nav h3 {
