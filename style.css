@@ -25,11 +25,21 @@ p {
 	-webkit-margin-after: 1em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
+	line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5 {
 -webkit-margin-before: 0;
 -webkit-margin-after: 0;
+}
+
+a {
+	color: inherit;
+}
+
+/* ABOUT */
+.about {
+	width: 50em;
 }
 
 /* HEADER */
@@ -280,6 +290,10 @@ a:hover {
 	line-height: 1.4em;
 	max-width: 35em;
 	margin-bottom: 3em;
+}
+
+.gray {
+	color: gray;
 }
 
 /* GENERAL LAYOUT */
